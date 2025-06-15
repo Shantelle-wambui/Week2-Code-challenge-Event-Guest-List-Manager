@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 500px;
+    margin: 50px;
+    padding: 20px;
+    background-color: pink;
+    border-radius: 10px;
+}
+h1{
+    text-align: center;
+}
+form{
+    display: flex;
+    gap: 10px;
+}
+input{
+    flex: 1;
+    padding: 8px;
+    font-size: 1rem;
+}
+button {
+    padding: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+ul {
+    margin-top: 20px;
+    padding-left: 0;
+}
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 10px;
+    background: #fff;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+li span{
+    flex: 1;
+    font-weight: bold;
+}
+.btn {
+    margin-left: 5px;
+    border: none;
+    border-radius: 4px;
+    padding:5px 8px;
+    font-size: 0.0rem;
+    cursor: pointer;
+}
+.delete-btn{
+    background: red;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px;
+    cursor: pointer;
+}
+.rsvp-btn {
+    background-color: lightskyblue;
+    color: #fff;
+}
+

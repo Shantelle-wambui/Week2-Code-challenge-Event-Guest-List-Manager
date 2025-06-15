@@ -6,7 +6,7 @@ const  guestList=document.getElementById('guestList');
 
 guestForm.addEventListener('submit', function(e) {
     e.preventDefault();//stop the page from reloading
-    const name=guestInput.ariaValueMax.trim();//get the name typed by the user,and remove extra spaces
+    const name=guestInput.value.trim();//get the name typed by the user,and remove extra spaces
     if(name==='')return;
 //check if there are already 10 guests in the list
     if(guestList.children.length>=10){

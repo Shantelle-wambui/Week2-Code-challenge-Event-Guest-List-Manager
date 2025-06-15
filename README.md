@@ -1,8 +1,7 @@
 # Week2-Code-challenge-Event-Guest-List-Manager
 # 🎉 Event Guest List Manager
 
-A simple and interactive web app to manage an event guest list. Built using **HTML**, **CSS**, and **JavaScript**, this tool lets you add, remove, and track RSVPs with smooth animations and an easy-to-use interface.
-
+A simple and interactive web app to manage an event guest list. Built using **HTML**, **CSS**, and **JavaScript**, this tool lets you add, remove, and track RSVPs .
 ---
 
 ## ✨ Features
@@ -11,7 +10,6 @@ A simple and interactive web app to manage an event guest list. Built using **HT
 - ✅ Limit guest list to 10 people
 - ✅ Mark guests as “Attending” or “Not Attending” (RSVP toggle)
 - ✅ Remove guests from the list
-- ✅ Smooth CSS animations when adding/removing guests
 - ✅ Form resets and refocuses automatically after adding a guest
 
 ---
